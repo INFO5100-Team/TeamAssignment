@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * This is a singlton class, which store all the airliners for searching the flights.
+ * This is a singleton class, which store all the airliners for searching the flights.
  * @author keshav
  */
 public class MasterTravelSchedule {

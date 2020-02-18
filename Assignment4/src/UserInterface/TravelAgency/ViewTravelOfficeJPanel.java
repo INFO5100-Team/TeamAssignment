@@ -1,7 +1,4 @@
-/*
- * HappyLamb - TravelAgencySystem
- * Each line should be prefixed with  * 
- */
+
 package UserInterface.TravelAgency;
 
 import Business.Airliner.Fleet.Airplane;
@@ -17,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author sallywang
+ * @author keshav
  */
 public class ViewTravelOfficeJPanel extends javax.swing.JPanel {
 

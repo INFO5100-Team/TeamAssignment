@@ -18,7 +18,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author gaomc
+ * @author keshav
  */
 public class ViewAirLinerJPanel extends javax.swing.JPanel {
 

@@ -1,12 +1,9 @@
-/*
- * HappyLamb - TravelAgencySystem
- * Each line should be prefixed with  * 
- */
+
 package UserInterface.TravelAgency;
 
 /**
  *
- * @author sallywang
+ * @author keshav
  */
 public class handlePendingTicketsJPanel extends javax.swing.JPanel {
 
