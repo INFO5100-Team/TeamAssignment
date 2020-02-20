@@ -82,7 +82,7 @@ public class LoginJFrame extends javax.swing.JFrame {
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 150, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel3.setText("HappyLamb Travel Agent System");
+        jLabel3.setText(" Travel Agent System");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, 30));
 
         userNameTextField.addActionListener(new java.awt.event.ActionListener() {

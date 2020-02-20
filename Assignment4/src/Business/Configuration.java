@@ -30,8 +30,8 @@ public class Configuration {
         business.getTravelAgencyDirectory().getTavelAgencyList().add(travelAgency);
                 
         UserAccount userAccount = new UserAccount();
-        userAccount.setUsername("Admin");
-        userAccount.setPassword("admin");
+        userAccount.setUsername("Keshav");
+        userAccount.setPassword("Keshav");
         userAccount.setRole("TravelAgency");
         
         travelAgency.getUserAccountDirectory().getUserAccountList().add(userAccount);
@@ -113,10 +113,10 @@ public class Configuration {
 
             SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
-            Date d1 = format.parse("2019-06-01");
-            Date d2 = format.parse("2019-10-01");
-            Date d3 = format.parse("2019-10-03");
-            Date d4 = format.parse("2019-08-15");
+            Date d1 = format.parse("2020-02-01");
+            Date d2 = format.parse("2020-01-01");
+            Date d3 = format.parse("2020-01-03");
+            Date d4 = format.parse("2020-02-15");
             
             SimpleDateFormat format2 = new SimpleDateFormat("hh:mm");
             LocalTime st1 = LocalTime.of(12, 10);
@@ -151,8 +151,8 @@ public class Configuration {
         travelAgency.getTravelOfficeDirectory().getTravelOfficList().add(travelOffice);
         
         UserAccount userAccount = new UserAccount();
-        userAccount.setUsername("BOSTON_LOGAN");
-        userAccount.setPassword("admin");
+        userAccount.setUsername("Boston");
+        userAccount.setPassword("Boston");
         userAccount.setRole("TravelOffice");
         userAccount.setMember(travelOffice);
         
@@ -164,15 +164,15 @@ public class Configuration {
     
     public static void configureCustomer(TravelOffice travelOffice){
         Customer customer1 = new Customer(travelOffice);
-        customer1.setName("Wei");
+        customer1.setName("Keshav");
         customer1.setIdentityType("Passport");
-        customer1.setIdentityID("E332211");
+        customer1.setIdentityID("P6602207");
         
         
         Customer customer2 = new Customer(travelOffice);
-        customer2.setName("Zhang");
-        customer2.setIdentityType("DriverLicense");
-        customer2.setIdentityID("S344223");
+        customer2.setName("Jiyuan");
+        customer2.setIdentityType("Passport");
+        customer2.setIdentityID("E332211");
         
         travelOffice.getCustomerDirectory().getCustomerList().add(customer1);
         travelOffice.getCustomerDirectory().getCustomerList().add(customer2);
