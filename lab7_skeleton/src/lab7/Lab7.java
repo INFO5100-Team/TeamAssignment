@@ -6,7 +6,14 @@
 package lab7;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
+import static java.util.stream.Collectors.toMap;
 import lab7.analytics.AnalysisHelper;
 import lab7.analytics.DataStore;
 import lab7.entities.Comment;
@@ -90,16 +97,32 @@ public class Lab7 {
             posts.put(postId, post);
         }
     }
+         public void getPostByMostComments(){
+         Map<Integer, Post> postHashMap = DataStore.getInstance().getPosts();
+        List<Post> postList = new ArrayList<>(postHashMap.values());
+        
+        
+        Collections.sort(postList, new Comparator<Post>() {
+            @Override
+            public int compare(Post p1, Post p2) {
+                return p2.getComments().size()-p1.getComments().size();
+            }
+        });
+        
+        System.out.println("Post with most comments: "+postList.get(0).getComments().size()+"\n"
+                +postList.get(0));
+    }
+    
+        
+     
+    
+    
     
     private void runAnalysis(){
         helper.userWithMostLikes();
         helper.getFiveMostLikeComment();
-//        helper.getAverageLikesPerComment();
-//        helper.getFiveInactiveUsersByPostNum();
-//        helper.getFiveInactiveUsersByCreateCommentsNum();
-//        helper.getPostByMostLikedComments();
-//        helper.getPostByMostComments();
-//        helper.getFiveProactiveUsersByOverall();
-//        helper.getFiveInactiveUsersByOverall();
+        helper.getAverageLikesPerComment();
+        helper.getPostByMostLikedComments();
+        helper.getPostByMostComments();
         }
 }
