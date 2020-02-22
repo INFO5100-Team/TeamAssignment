@@ -124,5 +124,10 @@ public class Lab7 {
         helper.getAverageLikesPerComment();
         helper.getPostByMostLikedComments();
         helper.getPostByMostComments();
+         helper.getFiveInactiveUsersByPostNum();
+        helper.getFiveInactiveUsersByCreateCommentsNum();
+         helper.getFiveProactiveUsersByOverall();
+        helper.getFiveInactiveUsersByOverall();
+
         }
 }

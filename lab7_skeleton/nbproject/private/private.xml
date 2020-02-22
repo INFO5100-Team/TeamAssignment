@@ -5,9 +5,9 @@
         <group>
             <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/Lab7.java</file>
             <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/entities/Comment.java</file>
-            <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/entities/User.java</file>
             <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/entities/Post.java</file>
             <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/analytics/AnalysisHelper.java</file>
+            <file>file:/C:/Users/keshav/Downloads/lab7_skeleton/lab7_skeleton/src/lab7/utils/MapSorter.java</file>
         </group>
     </open-files>
 </project-private>

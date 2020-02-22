@@ -62,6 +62,27 @@ public class User {
         return "User{" + "id = " + id + ", firstName = " + firstName + ", lastName = " + lastName + ", no. of comments = " + comments.size() + '}';
     }
     
+     /**
+     * Get the number of comments that the user has
+     * @author keshav
+     * @return the number of comments of the user
+     */
+    public int getCommentsNum(){
+        return comments.size();
+    }
+    
+    /**
+     * Calculate all the likes of comments that the user has
+     * @author keshav
+     * @return the sum of likes from all the comments of the user
+     */
+    public int getLikesNum(){
+        int num = 0;
+        for(Comment c : comments){
+            num+=c.getLikes();
+        }
+        return num;
+    }
     
     
 }
