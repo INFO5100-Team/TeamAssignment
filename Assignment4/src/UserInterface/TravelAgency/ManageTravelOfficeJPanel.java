@@ -61,8 +61,6 @@ public class ManageTravelOfficeJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         viewOffBtn = new javax.swing.JButton();
         newOffBtn = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         deleteOffjButton = new javax.swing.JButton();
         backjButton = new javax.swing.JButton();
 
@@ -112,12 +110,6 @@ public class ManageTravelOfficeJPanel extends javax.swing.JPanel {
             }
         });
         jPanel1.add(newOffBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 270, 150, -1));
-
-        jLabel2.setText("// CardSequenceJPane;");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, -1, -1));
-
-        jLabel3.setText("// input: travel Agency");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
 
         deleteOffjButton.setText("Delete Office");
         deleteOffjButton.addActionListener(new java.awt.event.ActionListener() {
@@ -187,8 +179,6 @@ public class ManageTravelOfficeJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backjButton;
     private javax.swing.JButton deleteOffjButton;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JButton newOffBtn;

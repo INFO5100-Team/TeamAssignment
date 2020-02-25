@@ -42,11 +42,8 @@ public class TravelAgencyBtnJPanel extends javax.swing.JPanel {
     private void initComponents() {
 
         manageAirlinerBtn = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         searchBtn = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
         manageTavelOfficBtn = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -60,9 +57,6 @@ public class TravelAgencyBtnJPanel extends javax.swing.JPanel {
         });
         add(manageAirlinerBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 151, -1, -1));
 
-        jLabel1.setText("// -> ManageAirlinerJPanel");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 190, -1, -1));
-
         searchBtn.setBackground(new java.awt.Color(255, 255, 255));
         searchBtn.setText("Search");
         searchBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -72,9 +66,6 @@ public class TravelAgencyBtnJPanel extends javax.swing.JPanel {
         });
         add(searchBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, -1, -1));
 
-        jLabel2.setText("// -> ManageMasterFlightSchedualJPanel");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, -1, -1));
-
         manageTavelOfficBtn.setBackground(new java.awt.Color(255, 255, 255));
         manageTavelOfficBtn.setText("Manage Travel Office");
         manageTavelOfficBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -83,9 +74,6 @@ public class TravelAgencyBtnJPanel extends javax.swing.JPanel {
             }
         });
         add(manageTavelOfficBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
-
-        jLabel3.setText("// .travelOfficeDirectory.travelOffice.getPendingTicket");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void manageTavelOfficBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageTavelOfficBtnActionPerformed
@@ -114,9 +102,6 @@ public class TravelAgencyBtnJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JButton manageAirlinerBtn;
     private javax.swing.JButton manageTavelOfficBtn;
     private javax.swing.JButton searchBtn;

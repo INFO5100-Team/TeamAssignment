@@ -97,7 +97,7 @@ public class TravelAgencyMain extends javax.swing.JFrame {
 
         mainJSplitPane.setRightComponent(rightJPanel);
 
-        upJPanel.setBackground(new java.awt.Color(51, 51, 51));
+        upJPanel.setBackground(new java.awt.Color(255, 153, 153));
         upJPanel.setMinimumSize(new java.awt.Dimension(0, 0));
         upJPanel.setPreferredSize(new java.awt.Dimension(1200, 80));
         upJPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
